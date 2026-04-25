@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #0f0f19;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#status {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #00ffcc;
+}
+
+#talkBtn {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    background: #ff0066;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(255, 0, 102, 0.5);
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#talkBtn:active {
+    transform: scale(0.9);
+    background: #cc0052;
+}
